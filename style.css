@@ -1,48 +1,46 @@
-div{
-    color:darkgreen;
-    font-size:smaller;
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position:relative;
-    top:0px;
-    left:240px;
+body 
+{
+    background-color: #c0c0c0;
+    position:absolute;
 }
-p > a:visited, p > a:link{
-    color:black;
-    font-size: larger;
+.div1	
+{
+	position: center; 
+	background-color: #9a9a9a;
+	border-radius: 30px;
+	width: 50%; 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	color: white;
 }
-p > a:visited:active, p > a:visited:active{
-    color:blue;
-    font-size: larger;
+.header-style
+{
+    text-align: center;
 }
-.notimportant{
-    color:goldenrod;
-    background-color: grey;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.FloatButton
+{
+    float:right;
+    margin: auto;
+    top: 50%;
 }
-#blank{
-    height:5000px;
+.firstcheck:checked
+{
+    border: none;
+    outline: 4px solid rgb(39, 255, 20);
 }
-div ~ h1{
-    background-color: black;
-    color:white;
+.secondcheck:checked
+{
+    border: none;
+    outline: 3px solid rgb(20, 24, 255);
 }
-div + h1{
-    font-style: italic;
-    font-size: larger;
-    color:yellow;
+.wrapper
+{
+    margin: 50px;
 }
-.slide{
-    width:200px;
-    padding:20px;
-    border-radius: 2em/8em;
-    height: 80px;
-    background-color:bisque;
-    position:fixed;
-    top:70%;
-    left:-15%;
-    transition: 2s;
-}
-.slide:hover{
-    left:-1%;
+.wrapper-element
+{   max-width: auto;
+    margin: 10px;
+    text-align: left;
+    display: flex;
 }
